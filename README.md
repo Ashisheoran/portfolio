@@ -1,4 +1,5 @@
 # Ashish | Data Science Portfolio
+![Portfolio Preview](portfolio-preview.png)
 
 Welcome to my personal **Data Science Portfolio** website.  
 This portfolio showcases my work in **Machine Learning, Data Analytics, SQL, Excel, and Power BI**, including case studies, dashboards, and project summaries.
