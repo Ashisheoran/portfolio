@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashish | Data Scientist</title>
+  <meta name="description" content="Ashish - Data Scientist portfolio with featured case study, quick summary table, and projects list." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">Ashish</a>
+
+      <nav class="links">
+        <a href="#featured">Case Studies</a>
+        <a href="#summary">Summary</a>
+        <a href="#projects">Projects</a>
+        <a href="#dashboards">Dashboards</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <button class="icon" id="themeBtn" title="Theme toggle">☾</button>
+        <a class="btn primary" href="#contact">Hire</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero-left">
+        <p class="pill">Data Scientist • Intern + Fresher</p>
+        <h1>Turning <span class="accent">data</span> into <span class="accent">decisions</span>.</h1>
+        <p class="lead">
+          I build ML models, create dashboards, and deliver business insights using Python, SQL, Excel, and Power BI. I focus on clean workflows, measurable results, and professional documentation.
+        </p>
+
+        <div class="cta">
+          <a class="btn primary" href="#featured">View Case Studies</a>
+          <a class="btn ghost" href="assets/Ashish_Resume.pdf" target="_blank" rel="noopener">Open Resume</a>
+          <a class="btn ghost" href="mailto:ashisheoran1@gmail.com">Email</a>
+        </div>
+
+        <div class="meta">
+          <a class="chip" href="https://linkedin.com/in/ashisheoran" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="chip" href="https://github.com/Ashisheoran" target="_blank" rel="noopener">GitHub</a>
+          <span class="chip muted">ashisheoran1@gmail.com</span>
+        </div>
+      </div>
+
+      <aside class="hero-right">
+        <div class="profile card">
+          <img src="assets/ashish.png" alt="Ashish profile photo" />
+          <div>
+            <div class="name">Ashish</div>
+            <div class="role">Data Scientist</div>
+            <div class="small muted">Python • SQL • ML • Excel • Power BI</div>
+          </div>
+        </div>
+      
+    
+        <div class="card" style="margin-top:14px">
+          <h3>What I do</h3>
+          <ul class="muted" style="padding-left:18px;margin-top:10px">
+            <li>EDA + insights + storytelling</li>
+            <li>Machine learning models + evaluation</li>
+            <li>SQL analytics for business KPIs</li>
+            <li>Dashboarding in Excel / Power BI</li>
+          </ul>
+        </div>
+      </aside>
+
+</section>
+
+    <!-- FEATURED -->
+    <section id="featured" class="section container">
+      <div class="head">
+        <h2>Featured Case Study</h2>
+      </div>
+
+      <article class="featured card">
+        <div class="featured-left">
+          <div class="badge">ML • Regression</div>
+          <h3>California Housing Price Prediction</h3>
+          <p class="muted">
+            Built a regression pipeline to predict housing prices using structured features, with preprocessing and evaluation.
+          </p>
+
+          <div class="bullets">
+            <div><b>Problem:</b> Predict housing prices from features.</div>
+            <div><b>Approach:</b> EDA → preprocessing → baseline model → evaluation.</div>
+            <div><b>Deliverables:</b> Reproducible repo + clean notebook + results.</div>
+          </div>
+
+          <div class="row">
+            <a class="btn primary" href="https://github.com/Ashisheoran/california-housing-price-prediction.git" target="_blank" rel="noopener">GitHub Repo</a>
+            <button class="btn ghost" data-modal="mlModal">Open Case Study</button>
+          </div>
+        </div>
+
+        <div class="featured-right">
+          <div class="mini card">
+            <div class="mini-title">Tech Stack</div>
+            <div class="muted">Python, Pandas, NumPy, scikit-learn</div>
+          </div>
+          <div class="mini card">
+            <div class="mini-title">Next Improvements</div>
+            <ul class="muted">
+              <li>Hyperparameter tuning</li>
+              <li>Feature engineering</li>
+              <li>Explainability (SHAP)</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- SUMMARY TABLE -->
+    <section id="summary" class="section container">
+      <div class="head">
+        <h2>Projects Overview</h2>
+        </div>
+
+      <div class="table-wrap card">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Project</th>
+              <th>Type</th>
+              <th>Tech</th>
+              <th>Links</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>California Housing Price Prediction</td>
+              <td>ML</td>
+              <td>Python, Sklearn</td>
+              <td><a href="https://github.com/Ashisheoran/california-housing-price-prediction.git" target="_blank" rel="noopener">GitHub</a></td>
+            </tr>
+            <tr>
+              <td>Pizza Sales SQL Analysis</td>
+              <td>SQL</td>
+              <td>SQL</td>
+              <td><a href="https://github.com/Ashisheoran/Pizza-Sales-SQL-Analysis.git" target="_blank" rel="noopener">GitHub</a></td>
+            </tr>
+            <tr>
+              <td>Coffee Shop Sales Analysis</td>
+              <td>Excel</td>
+              <td>Excel</td>
+              <td><button class="link-btn" data-image="assets/coffee_excel_dashboard.png" data-title="Coffee Shop Sales (Excel)">Preview</button></td>
+            </tr>
+            <tr>
+              <td>Amazon Products Dashboard</td>
+              <td>Power BI</td>
+              <td>Power BI</td>
+              <td><button class="link-btn" data-image="assets/amazon_powerbi_dashboard.png" data-title="Amazon Products (Power BI)">Preview</button></td>
+            </tr>
+            <tr>
+              <td>Career Skill Quest</td>
+              <td>Python</td>
+              <td>Python</td>
+              <td><a href="https://github.com/Ashisheoran/Career-Skill-Quest.git" target="_blank" rel="noopener">GitHub</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- PROJECTS LIST -->
+    <section id="projects" class="section container">
+      <div class="head">
+        <h2>Projects</h2>
+      </div>
+
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="Search projects..." />
+        <select id="filter">
+          <option value="all">All</option>
+          <option value="ml">ML</option>
+          <option value="sql">SQL</option>
+          <option value="excel">Excel</option>
+          <option value="powerbi">Power BI</option>
+        </select>
+      </div>
+
+      <div class="project-list" id="projectList">
+        <article class="project" data-tags="ml python regression">
+          <div class="p-left">
+            <h3>California Housing Price Prediction</h3>
+            <p class="muted">Regression model with preprocessing + evaluation.</p>
+            <div class="stack">Python • Pandas • scikit-learn</div>
+          </div>
+          <div class="p-right">
+            <a class="btn small primary" href="https://github.com/Ashisheoran/california-housing-price-prediction.git" target="_blank" rel="noopener">GitHub</a>
+            <button class="btn small ghost" data-modal="mlModal">Case Study</button>
+          </div>
+        </article>
+
+        <article class="project" data-tags="sql analytics business">
+          <div class="p-left">
+            <h3>Pizza Sales SQL Analysis</h3>
+            <p class="muted">Revenue trends, top products, KPI queries.</p>
+            <div class="stack">SQL • Analytics</div>
+          </div>
+          <div class="p-right">
+            <a class="btn small primary" href="https://github.com/Ashisheoran/Pizza-Sales-SQL-Analysis.git" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project" data-tags="excel dashboard sales">
+          <div class="p-left">
+            <h3>Coffee Shop Sales Analysis (Excel)</h3>
+            <p class="muted">Sales dashboard: footfall, peak hours, category insights.</p>
+            <div class="stack">Excel • Dashboard</div>
+          </div>
+          <div class="p-right">
+            <a class="btn small primary" href="https://github.com/Ashisheoran/Coffee-Shop-Sales-Analysis-excel-.git" target="_blank" rel="noopener">GitHub</a>
+            <button class="btn small ghost" data-image="assets/coffee_excel_dashboard.png" data-title="Coffee Shop Sales (Excel)">Preview</button>
+          </div>
+        </article>
+
+        <article class="project" data-tags="powerbi dashboard analytics">
+          <div class="p-left">
+            <h3>Amazon Products Sales Dashboard (Power BI)</h3>
+            <p class="muted">KPI dashboard with YTD/QTD sales and trends.</p>
+            <div class="stack">Power BI • Dashboard</div>
+          </div>
+          <div class="p-right">
+            <button class="btn small ghost" data-image="assets/amazon_powerbi_dashboard.png" data-title="Amazon Products (Power BI)">Preview</button>
+          </div>
+        </article>
+
+        <article class="project" data-tags="python project learning">
+          <div class="p-left">
+            <h3>Career Skill Quest</h3>
+            <p class="muted">Structured skill-building project.</p>
+            <div class="stack">Python • Project</div>
+          </div>
+          <div class="p-right">
+            <a class="btn small primary" href="https://github.com/Ashisheoran/Career-Skill-Quest.git" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- DASHBOARDS -->
+    <section id="dashboards" class="section container">
+      <div class="head">
+        <h2>Dashboards</h2>
+      </div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Excel Dashboard</h3>
+          <p class="muted">Coffee Shop Sales dashboard.</p>
+          <button class="btn ghost" data-image="assets/coffee_excel_dashboard.png" data-title="Coffee Shop Sales (Excel)">Preview</button>
+        </div>
+        <div class="card">
+          <h3>Power BI Dashboard</h3>
+          <p class="muted">Amazon Products dashboard.</p>
+          <button class="btn ghost" data-image="assets/amazon_powerbi_dashboard.png" data-title="Amazon Products (Power BI)">Preview</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATE -->
+    <section id="certificates" class="section container">
+      <div class="head">
+        <h2>Certificates & Experience</h2>
+      </div>
+
+      <div class="project-list">
+    <!-- Internship Certificate -->
+       <article class="project" data-tags="internship certificate">
+         <div class="p-left">
+           <h3>Data Science Internship Certificate</h3>
+           <p class="muted">
+             Internship completion certificate (hands-on learning, projects, and practical work).
+           </p>
+           <div class="stack">Internship • Data Science</div>
+         </div>
+  
+      <div class="p-right">
+        <button class="btn small ghost"
+          data-image="assets/internship_certificate.png"
+          data-title="Data Science Internship Certificate">
+          Preview
+        </button>
+      </div>
+    </article>
+  </div>
+</section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container">
+      <div class="head">
+        <h2>Contact</h2>
+        <p class="muted">Fastest response via email.</p>
+      </div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>Links</h3>
+          <div class="row">
+            <a class="btn primary" href="mailto:ashisheoran1@gmail.com">Email</a>
+            <a class="btn ghost" href="https://linkedin.com/in/ashisheoran" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn ghost" href="https://github.com/Ashisheoran" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Message</h3>
+          <form id="form" class="form">
+            <div class="row2">
+              <input placeholder="Your name" required />
+              <input type="email" placeholder="Email" required />
+            </div>
+            <textarea rows="4" placeholder="Message" required></textarea>
+            <button class="btn primary" type="submit">Send</button>
+            <p id="status" class="muted small"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container foot">
+        <span class="muted">© 2026 Ashish • Data Scientist</span>
+        <a class="muted" href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+  </main>
+
+  <!-- IMAGE MODAL -->
+  <div class="modal" id="imgModal" aria-hidden="true">
+    <div class="overlay" data-close></div>
+    <div class="dialog">
+      <div class="dialog-top">
+        <h3 id="imgTitle">Preview</h3>
+        <button class="icon" data-close>✕</button>
+      </div>
+      <img id="imgPreview" alt="Preview image" />
+    </div>
+  </div>
+
+  <!-- CASE STUDY MODAL -->
+  <div class="modal" id="mlModal" aria-hidden="true">
+    <div class="overlay" data-close></div>
+    <div class="dialog">
+      <div class="dialog-top">
+        <h3>Case Study: California Housing</h3>
+        <button class="icon" data-close>✕</button>
+      </div>
+      <div class="card">
+        <b>Problem</b>
+        <p class="muted">Predict housing prices from structured features.</p>
+      </div>
+      <div class="card">
+        <b>Approach</b>
+        <p class="muted">EDA → preprocessing → model training → evaluation.</p>
+      </div>
+      <div class="row">
+        <a class="btn primary" href="https://github.com/Ashisheoran/california-housing-price-prediction.git" target="_blank" rel="noopener">Open Repo</a>
+        <button class="btn ghost" data-close>Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
